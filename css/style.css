@@ -16,18 +16,20 @@ body {
     background: #fff;
 }
 .ba-container {
-    width: 1200px;
-    height: 600px;
+    max-width: 1200px;
+    min-width: 400px;
+    min-height: 600px;
+    max-height: 1500px;
     background: #fdde7e;
-    margin: 40px auto;
-    padding: 50px 0;
+    margin: 20px auto;
+    padding: 40px 0;
 }
 .ba-flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 30px;
+    margin: 0 30px;
 }
 .ba-product {
     width: 360px;
@@ -36,9 +38,10 @@ body {
     box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.4);
     border-radius: 3px;
     text-align: center;
+    margin-top: 40px;
 }
 .ba-product:hover {
-    transform: scaleY(1.14);
+    transform: scaleY(1.1);
 }
 .ba-product__price {
     color: #02995b;
