@@ -27,18 +27,24 @@ body {
 .ba-flex-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 0 30px;
 }
 .ba-product {
-    width: 360px;
-    height: 441px;
+    max-width: 390px;
+    min-width: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
     background: #fff;
     box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.4);
     border-radius: 3px;
     text-align: center;
     margin-top: 40px;
+}
+.center {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .ba-product:hover {
     transform: scaleY(1.1);
