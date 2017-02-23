@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Miso';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso'), url('../fonts/miso/miso.woff') format('woff');
+}
+* {
+    box-sizing: border-box;
+    transition: all 0.1s ease-in;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    background: #fff;
+}
+.ba-container {
+    max-width: 1200px;
+    min-width: 400px;
+    min-height: 600px;
+    max-height: 1500px;
+    background: #fdde7e;
+    margin: 20px auto;
+    padding: 40px 0;
+}
+.ba-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+.ba-product {
+    width: 360px;
+    height: 441px;
+    background: #fff;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.4);
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 40px;
+}
+.ba-product:hover {
+    transform: scaleY(1.1);
+}
+.ba-product__price {
+    color: #02995b;
+    font-family: 'Miso', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 35px 0 23px 0;
+}
+.ba-product__img {
+    margin-bottom: 30px;
+}
+.ba-product__title {
+    color: #333333;
+    font-family: 'Miso', sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.ba-product__description {
+    width: 156px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto;
+}
